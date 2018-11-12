@@ -1,6 +1,8 @@
 # JSketch
 JSketch is a vector-drawing program, consisting of a canvas and tool palettes. Users can select drawing properties, and drawing shapes on-screen.
 
+![](demo.gif)
+
 ## How to play
 
 ### Menu bar:
