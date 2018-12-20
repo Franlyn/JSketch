@@ -31,27 +31,26 @@ A graphical display of 6 or more colors, which the user can use to select the cu
 a graphical display of at least 3 line widths that the user can select. Selecting a line width will set the border thickness for any new shapes drawn. Selecting a shape will change the border thickness to reflect the line thickness of that shape.
 
 ## Files
-JSketch.java: The main file<br \>
-Model.java: Model in MVC<br \>
-View.java: The main View<br \>
-Observer.java: The view interface<br \>
-MenuFile.java: Menu - File<br \>
-MenuView.java: Menu - View<br \>
-ToolPalette.java: A view for the tool palette.<br \>
-ColorPalette.java: A view for the color palette.<br \>
-LinePalette.java: A view for the line palette.<br \>
+JSketch.java: The main file
+Model.java: Model in MVC
+View.java: The main View
+Observer.java: The view interface
+MenuFile.java: Menu - File
+MenuView.java: Menu - View
+ToolPalette.java: A view for the tool palette.
+ColorPalette.java: A view for the color palette.
+LinePalette.java: A view for the line palette.
 Shape.java: A class for defining shapes: line, circle, rectangle.
 
-makefile: compile the program<br \>
+makefile: compile the program
 
-Icons: (Reference: https://icons8.com/icon/new-icons/all) <br \>
-tool_0.png, tool_1.png, tool_2.png, tool_3.png, tool_4.png, tool_5.png <br \>
+Icons: (Reference: https://icons8.com/icon/new-icons/all) 
+tool_0.png, tool_1.png, tool_2.png, tool_3.png, tool_4.png, tool_5.png 
 color_0.png, color_1.png, color_2.png, color_3.png, color_4.png, color_5.png 
 
 ## Compilation
 I implemented the program under Mac OS, Java 10.0.2 using Swing components, so I recommend to run it under Mac OS for best experience.<br \>
-To compile the program in command line: Enter "make"<br \>
-To run the program: Enter "java JSketch"<br \><br \>
+To compile the program in command line: Enter "make"
+To run the program: Enter "java JSketch"
 Example:
-<pre><code>make
-java JSketch</code></pre>
+<pre><code>make run</code></pre>
